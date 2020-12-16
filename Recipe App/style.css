@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: #ece9e6;  
+background: -webkit-linear-gradient(to right, #ffffff, #ece9e6);  
+background: linear-gradient(to right, #ffffff, #ece9e6); 
+
+font-family: "poppins" , sans-serif;
+margin: 0;
+display: flex;
+align-items: center;
+justify-content:center ;
+min-height: 100vh;
+}
+
+img { 
+    max-width: 100%;
+}
+
+.mobile-container{
+    background-color: #ffffff;
+    box-shadow: 0 0 10px 2px #3333331a;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 400px;
+}
+header { 
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header input { 
+    background-color: #eee;
+    border: none;
+    border-radius: 3px;
+    padding: 0,5rem , 1rem;
+    font-family: inherit;
+
+}
+header button { 
+    background-color: transparent;
+    border: none;
+    color: rgb(138, 129, 141);
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
+
+.fav-container { 
+    background-color:rgb(255, 189, 246);
+    padding:0.25rem 1rem;
+    text-align: center;
+    
+}
+
+.fav-meals { 
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.fav-meals li { 
+    position: relative;
+    margin: 5px;
+    width: 75px;
+
+}
+ .fav-meals li .clear {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+    top: -0.5rem;
+    right: -0.5rem;
+    font-size: 1.2rem;
+} 
+.fav-meals li:hover .clear{
+    opacity: 1;
+}
+
+.fav-meals li img { 
+ border: 2px solid #ffffff;    
+ box-shadow: 0 0 10px 2px #3333331a;
+ border-radius: 50%;
+ object-fit: cover;
+ height: 70px;
+ width: 70px;  
+}
+
+.fav-meals li img span { 
+    display: inline-block;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 75px;
+}
+
+
+.meal{
+margin: 1.5rem;
+border-radius: 3px;
+box-shadow: 0 0 10px 2px #3333331a;
+overflow: hidden;
+}
+
+.meal-header{
+position: relative;
+
+}
+
+.meal-header .random {
+    position: absolute;
+    top: 1rem;
+    background-color: #ffffff;
+    padding: 0.25rem 1rem;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius:3px ;
+}
+
+.meal-header img {
+    object-fit: cover;
+    height: 250px;
+    width: 100%;
+
+}
+
+.meal-body {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 1rem;
+}
+
+.meal-body h4 { 
+    margin: 0%;
+}
+
+.meal-body .fav-btn { 
+    background-color: transparent;
+    border: none;
+    font-size: 1.3rem;
+    color: rgb(197, 188, 188);
+    cursor: pointer;
+}
+
+.meal-body .fav-btn.active { 
+    color:rebeccapurple;
+}
