@@ -33,6 +33,10 @@ h1 {
     font-weight: normal;
     font-size: 4rem;
     margin-top: 5rem;
+    border-radius: 40px;
+    font-weight: bolder;
+    box-shadow:  0 5px 10px rgb(153, 16, 16);
+
 
 }
 h1 span {
