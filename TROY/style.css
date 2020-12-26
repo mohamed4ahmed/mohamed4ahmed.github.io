@@ -20,7 +20,7 @@ body img {
     height: 100px;
     margin-right: 500px;
     margin-top: 10px;
-    border-radius: 50px;
+    border-radius:20px;
     box-shadow: 0 10px 10px rgb(230, 28, 28);
 
     
@@ -33,7 +33,7 @@ h1 {
     font-weight: normal;
     font-size: 4rem;
     margin-top: 5rem;
-    border-radius: 40px;
+    border-radius: 11rem;
     font-weight: bolder;
     box-shadow:  0 5px 10px rgb(153, 16, 16);
 
