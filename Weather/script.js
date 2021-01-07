@@ -38,7 +38,7 @@ function addWeatherToPage(data) {
     //clean
     main.innerHTML = '';
     main.appendChild(weather);
-
+    
 
 }
 
