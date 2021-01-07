@@ -11,7 +11,7 @@ async function getWeatherByLocation(city) {
     const resp = await fetch(url(city), { origin: "cors" });
     const respData = await resp.json();
     
-
+    console.log(respData);
     addWeatherToPage(respData);
 }
 
@@ -32,7 +32,8 @@ function addWeatherToPage(data) {
         <h2>  <img src='https://openweathermap.org/img/w/${data.weather[0].icon}.png'/>
        ${temp}°C <img src='https://openweathermap.org/img/w/${data.weather[0].icon}.png'/>
         </h2>
-        <small>${data.weather[0].main}</small>
+        <small>${data.weather[0].main}</small><br>
+        <span>${data.name}</span>
     `;
     //clean
     main.innerHTML = '';
@@ -51,6 +52,7 @@ if(city) {
 
     
     getWeatherByLocation(city);
+    search.value ='';
 
     
 }
