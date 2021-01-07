@@ -5,7 +5,7 @@
 }
 
 body {
-    background: linear-gradient(300deg, #ced1d6 ,
+    background: linear-gradient(300deg, #90a3c2 ,
  #bfc0c0); 
     font-family: 'Poppins' , sans-serif;
     display: flex;
@@ -35,11 +35,28 @@ input:focus {
 .weather { 
     font-size: 2rem;
     text-align: center;    
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    
 }
 .weather h2 { 
     display: flex;
     align-items: center;
     margin-bottom: 0;
+}
+
+.countrys { 
+max-height: 200px;
+width: 300px;
+overflow: auto;
+font-size: 1.2rem;
+box-shadow: 0 4px 10px rgba(112, 81, 81, 0.2);
+
+}
+.capital { 
+
+    margin-bottom: 0;
+box-shadow: 0 4px 10px rgba(112, 81, 81, 0.2);
+
 }
 
 

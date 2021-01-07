@@ -56,3 +56,76 @@ if(city) {
 }
 
 });
+
+`
+<p class ='country>Country	Capital city
+
+Country Start With A
+Algeria	Algiers
+Angola	Luanda
+Country Start With B
+Benin	Porto-Novo
+Botswana	Gaborone
+Burkina Faso	Ouagadougou
+Burundi	Gitega
+Country Start With C
+Cabo Verde	Praia
+Cameroon	Yaounde
+Central African Republic	Bangui
+Chad	N'Djamena
+Comoros	Moroni
+Congo, Democratic Republic of the	Kinshasa
+Congo, Republic of the	Brazzaville
+Cote d'Ivoire	Yamoussoukro
+Country Start With D
+Djibouti	Djibouti (city)
+Country Start With E
+Egypt	Cairo
+Equatorial Guinea	Malabo (de jure), Oyala (seat of government)
+Eritrea	Asmara
+Eswatini (formerly Swaziland)	Mbabane (administrative), Lobamba (legislative, royal)
+Ethiopia	Addis Ababa
+Country Start With G
+Gabon	Libreville
+Gambia	Banjul
+Ghana	Accra
+Guinea	Conakry
+Guinea-Bissau	Bissau
+Country Start With K
+Kenya	Nairobi
+Country Start With L
+Lesotho	Maseru
+Liberia	Monrovia
+Libya	Tripoli
+Country Start With M
+Madagascar	Antananarivo
+Malawi	Lilongwe
+Mali	Bamako
+Mauritania	Nouakchott
+Mauritius	Port Louis
+Morocco	Rabat
+Mozambique	Maputo
+Country Start With N
+Namibia	Windhoek
+Niger	Niamey
+Nigeria	Abuja
+Country Start With R
+Rwanda	Kigali
+Country Start With S
+Sao Tome and Principe	São Tomé
+Senegal	Dakar
+Seychelles	Victoria
+Sierra Leone	Freetown
+Somalia	Mogadishu
+South Africa	Pretoria (administrative), Cape Town (legislative), Bloemfontein (judicial)
+South Sudan	Juba
+Sudan	Khartoum
+Country Start With T
+Tanzania	Dodoma
+Togo	Lomé
+Tunisia	Tunis
+Country Start With U
+Uganda	Kampala
+Country Start With Z
+Zambia	Lusaka
+Zimbabwe	Harare</p>`
