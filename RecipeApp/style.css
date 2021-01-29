@@ -43,6 +43,11 @@ header input {
     padding: 0.5rem 1rem;
 }
 
+header input::placeholder { 
+    font-size: 14.5px ;
+    color: rgb(127, 92, 150);
+}
+
 header button {
     background-color: transparent;
     border: none;
@@ -152,7 +157,7 @@ header button {
 }
 
 .meal-body .fav-btn.active {
-    color: rebeccapurple;
+    color: red;
 }
 
 .popup-container {
